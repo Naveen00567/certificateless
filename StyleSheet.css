@@ -1,0 +1,48 @@
+﻿
+body 
+{
+	
+}
+
+.watermarked
+{
+   background-color: #FCF9F5;
+   border: solid 1px #FA58AC;
+   padding: 2px;
+   font-size:xx-small;
+   color: #B4B9B9;
+}
+
+.ButtonClass:hover
+{
+    cursor: pointer;
+}
+
+.LinkButton:hover
+{
+	color: #B45F04;
+}
+
+.modalBackground 
+{ 
+	background-color:#fff; 
+	filter:alpha(opacity=70); 
+	opacity:0.7px; 
+} 
+
+.imagesize 
+{
+	background-image:url('Cloud Images/chess1.jpg');
+	width:10%;    
+	z-index:0;    
+	padding:15.5px;    
+	border-top: thin solid #736F6E;   
+	border-bottom: thin solid #736F6E;   
+	color:#ffffff;   
+	margin:0 auto;   
+	left: 0px
+	white-space: pre;   
+	white-space: pre-wrap;   
+	white-space: pre-line;   
+	word-wrap: break-word; 
+} 

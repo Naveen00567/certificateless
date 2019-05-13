@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeMaster.master.cs" Inherits="HomeMaster" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Certificateless Data Integrity Checking and Data Sharing with Sensitive Information Hiding in Cloud Storage</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 89%;
+        }
+        .style5
+        {
+            height: 53px;
+            width: 765px;
+        }
+        .style7
+        {
+            width: 749px;
+        }
+        .style8
+        {
+            width: 952px;
+        }
+        #form1
+        {
+            width: 899px;
+        }
+    </style>
+</head>
+<body background="Cloud Images/bkgrnd_greydots.png">
+
+     <form id="form1" runat="server">
+         <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+    <div style="width: 899px">
+        <table class="style1">
+            <tr>
+                <td style="background-image: url('/C:/Users/Dell/Documents/Visual Studio 2008/WebSites/finalintegrity/Cloud Images/body-background.jpg')" 
+                    class="style8">
+                    <br />
+                    <br />
+                        <table style="border-style: none; border-color: inherit; border-width: 1; width: 95%; height: 147px; ">
+                        <tr>
+                        <td class="style1" 
+                            style="background-image: none">
+                        <img alt="" src="Cloud%20Images/4522.jpg" 
+                                style="background-image: none; width: 193px;" /></td>
+                        <td align="center" bgcolor="White" style="margin-left: 80px">
+                        <asp:Label ID="Label1" runat="server" BorderStyle="None" Font-Bold="True" 
+                            Font-Italic="True" Font-Names="Franklin Gothic Demi" Font-Size="XX-Large" 
+                            Font-Underline="True" ForeColor="#993300" 
+                            Text="Certificateless Data Integrity Checking and Data Sharing with Sensitive Information Hiding in Cloud Storage" Width="579px"></asp:Label>
+                        </td>
+                        </tr>
+                          </table>
+                        </tr>
+                    </table>
+                    <br />
+                    <table class="style1" style="border-style: solid; border-width: medium">
+                        <tr>
+                            <td align="center" class="style5">
+&nbsp;&nbsp;<asp:Button ID="Button4" runat="server" Font-Bold="True" Font-Size="Medium" Height="51px" 
+                                    PostBackUrl="~/default.aspx" Text="Home" Width="120px" />
+                                &nbsp;&nbsp; &nbsp;
+                                <asp:Button ID="Button1" runat="server" Font-Bold="True" Font-Size="Medium" 
+                                    Height="51px" Text="Architecture" Width="120px" 
+                                    PostBackUrl="~/architecture.aspx"/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:Button ID="Button2" runat="server" Font-Bold="True" Font-Size="Medium" 
+                                    Height="51px" Text="Help" Width="120px" PostBackUrl="~/help.aspx" />
+&nbsp; &nbsp;&nbsp;&nbsp;
+                                <asp:Button ID="Button3" runat="server" Font-Bold="True" Font-Size="Medium" 
+                                    Height="51px" Text="Sign In" Width="120px" PostBackUrl="~/signin.aspx" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:Button ID="Button5" runat="server" Font-Bold="True" Font-Size="Medium" 
+                                    Height="51px" Text="Sign Up" Width="120px" 
+                                    PostBackUrl="~/OwnerRegistration.aspx" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table class="style1" style="border-style: solid; border-width: medium">
+                        <tr>
+                            <td style="border-style: solid; border-width: medium" class="style7">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+        
+        </asp:ContentPlaceHolder>
+                                <br />
+                                <br />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

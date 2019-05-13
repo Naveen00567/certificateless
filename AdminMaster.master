@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainMaster.master" AutoEventWireup="false" CodeFile="AdminMaster.master.cs" Inherits="AdminMaster" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+    .style3
+    {
+        width: 801px;
+    }
+</style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <table class="style1" style="width: 100%">
+        <tr>
+            <td style="border: medium solid #000000; font-family: 'times New Roman', Times, serif; font-size: xx-large; font-weight: bold; font-style: italic; color: #0000FF" 
+                class="style3">
+&nbsp;&nbsp;&nbsp; Admin&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;<asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">Home</asp:LinkButton>
+                &nbsp;
+                <asp:LinkButton ID="LinkButton2" runat="server" onclick="LinkButton2_Click">Warning</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton3" runat="server" onclick="LinkButton3_Click">Owner 
+                Details</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton4" runat="server" onclick="LinkButton4_Click">Sign 
+                Out</asp:LinkButton>
+                <br />
+            </td>
+        </tr>
+    </table>
+    <br />
+<table class="style1" style="width:auto">
+    <tr>
+        <td>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </td>
+    </tr>
+</table>
+    <table class="style1" style="width: 801px"> 
+    </table>
+</asp:Content>
+
+
